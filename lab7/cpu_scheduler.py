@@ -70,7 +70,7 @@ def main():
     ]
     
     simulate_fcfs(os_ready_queue)
-    simulate_round_robin(os_ready_queue, quantum=3)
+    simulate_round_robin(os_ready_queue, quantum=100)
 
 
 if __name__ == "__main__":
